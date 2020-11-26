@@ -1,0 +1,37 @@
+{
+ "sku": {
+  "name": "A1",
+  "tier": "Standard"
+ },
+ "properties": {
+  "displayName": "Deploy Log Analytics agent for Windows VMs",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0868462e-646c-4fe3-9ced-a733534b6a2c",
+  "scope": "/subscriptions/fcb0b20b-0287-43fe-be80-3fedf55a8613",
+  "notScopes": [],
+  "parameters": {
+   "logAnalytics": {
+    "value": "1"
+   },
+   "listOfImageIdToInclude": {
+    "value": []
+   }
+  },
+  "description": "",
+  "metadata": {
+   "createdBy": "10d7e6ee-f8f8-4982-a059-18ef5b4fee79",
+   "createdOn": "2020-11-26T10:53:14.5881559Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "identity": {
+  "principalId": "069beb80-a1c7-44fa-b4d0-49f8020b715d",
+  "tenantId": "366d0ca0-d932-42cd-b60f-408c5c485a1d",
+  "type": "SystemAssigned"
+ },
+ "id": "/subscriptions/fcb0b20b-0287-43fe-be80-3fedf55a8613/providers/Microsoft.Authorization/policyAssignments/4f40fc711cc48d1ddd634302701c545f22b6f7ae0b5db674ec14c2b30232944d",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "4f40fc711cc48d1ddd634302701c545f22b6f7ae0b5db674ec14c2b30232944d",
+ "location": "eastus"
+}
